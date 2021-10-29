@@ -1,4 +1,4 @@
-# My Linux setup
+# My Ubuntu setup
 
 ![](img/screenshot.png)
 
