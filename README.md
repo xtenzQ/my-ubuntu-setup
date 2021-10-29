@@ -28,3 +28,8 @@
 
 ## Dock conf
 In the file.
+
+To copy settings into your config use:
+```Bash
+dconf load /org/gnome/shell/extensions/dash-to-dock/ < dash-to-dock.conf
+```
