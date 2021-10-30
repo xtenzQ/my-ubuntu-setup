@@ -47,3 +47,8 @@ pactl set-default-sink alsa_output.pci-0000_00_1b.0.analog-stereo &&  pactl set-
 ```
 
 To list your input and output devices use `pactl list short sinks` and `pactl list short sources`
+
+### Fix dual boot bluetooth
+
+Link:
+https://unix.stackexchange.com/questions/255509/bluetooth-pairing-on-dual-boot-of-windows-linux-mint-ubuntu-stop-having-to-p
