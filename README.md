@@ -29,7 +29,10 @@ Table of contents:
         * user themes
     * fonts
         * inteface text: Ubuntu Regular 11
-        * hinting: none
+        * document text: Sans Regular 11
+        * monospace text: Ubuntu Mono Regular 13
+        * legacy window titles: Ubuntu Regular 11
+        * hinting: slight
         * antialiasing: subpixel
         * scaling factor: 1.00
 
