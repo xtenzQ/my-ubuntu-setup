@@ -2,11 +2,13 @@
 
 Table of contents:
 1. [Theme](#Theme)
-2. [Default audio devices](#Default-audio-devices)
+2. [Audio device setup](#Audio-device-setup)
+3. [Bluetooth Dual Boot Pairing](#Bluetooth-Dual-Boot-Pairing)
+
+## Theme
 
 ![](img/screenshot.png)
 
-## Theme
 * [wallpaper](https://wallpaperaccess.com/full/1678137.jpg)
 * tweaks
     * appearance
@@ -38,7 +40,14 @@ To copy settings into your config use:
 dconf load /org/gnome/shell/extensions/dash-to-dock/ < dash-to-dock.conf
 ```
 
-## Default audio devices
+## Audio device setup
+
+I spent lots of time setting up my audio environment on Ubuntu and it's a pure hell for a person who's not familiar with Linux.
+1. Download `pavucontrol`:
+`sudo apt update && sudo apt install pavucontrol`
+2. Go to `Configuration` tab and disable all unused micro by clicking "Off" in dropdown menu.
+3. Switch all your microphones profiles from `Duplex` into `Input` (microphone is not an output device).
+4. Switch all your headphones profiles from `Duplex` into `Output`.
 
 I use AKG Lyra & default stereo headphones preset (the command below is added into `Startup Applications`):
 
@@ -48,7 +57,7 @@ pactl set-default-sink alsa_output.pci-0000_00_1b.0.analog-stereo &&  pactl set-
 
 To list your input and output devices use `pactl list short sinks` and `pactl list short sources`
 
-### Fix dual boot bluetooth
+## Bluetooth Dual Boot Pairing
 
 Link:
 https://unix.stackexchange.com/questions/255509/bluetooth-pairing-on-dual-boot-of-windows-linux-mint-ubuntu-stop-having-to-p
