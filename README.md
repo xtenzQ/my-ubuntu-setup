@@ -45,7 +45,7 @@ Table of contents:
 sudo apt install gnome-tweaks
 
 # Download and install Orchis Dark Compact
-curl -LJO https://github.com/vinceliuice/Orchis-theme/archive/refs/heads/master.zip && unzip Orchis-theme-master.zip && cd Orchis-theme-master && sh -c install.sh  --tweaks compact
+curl -LJO https://github.com/vinceliuice/Orchis-theme/archive/refs/heads/master.zip && unzip Orchis-theme-master.zip && cd Orchis-theme-master && sh -c install.sh --tweaks compact
 
 # Install Papirus Dark Icons
 sudo add-apt-repository ppa:papirus/papirus && sudo apt-get update && sudo apt-get install papirus-icon-theme
@@ -54,7 +54,6 @@ sudo add-apt-repository ppa:papirus/papirus && sudo apt-get update && sudo apt-g
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && chsh -s $(which zsh)
 # Set Oh-my-zsh as default (instead of bash)
 # P.S. probably won't work so try https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell
-chsh -s $(which zsh)
 
 # Install p10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
