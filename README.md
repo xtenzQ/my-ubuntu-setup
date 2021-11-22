@@ -51,9 +51,13 @@ sudo apt-get install papirus-icon-theme
 
 # Install Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Set Oh-my-zsh as default (instead of bash)
+# P.S. probably won't work so try https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell
+chsh -s $(which zsh)
 
 # Install p10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+# Install fonts Meslo NGL from https://github.com/romkatv/powerlevel10k#fonts
 ```
 
 ### Dock conf
