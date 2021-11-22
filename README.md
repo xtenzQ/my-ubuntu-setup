@@ -44,13 +44,14 @@ Table of contents:
 # Install Gnome Tweaks
 sudo apt install gnome-tweaks
 
-# Install Papirus Dark Icons
-sudo add-apt-repository ppa:papirus/papirus
-sudo apt-get update
-sudo apt-get install papirus-icon-theme
+# Download and install Orchis Dark Compact
+curl -LJO https://github.com/vinceliuice/Orchis-theme/archive/refs/heads/master.zip && unzip Orchis-theme-master.zip && cd Orchis-theme-master && sh -c install.sh  --tweaks compact
 
-# Install Oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Install Papirus Dark Icons
+sudo add-apt-repository ppa:papirus/papirus && sudo apt-get update && sudo apt-get install papirus-icon-theme
+
+# Install Oh-my-zsh and set as default shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && chsh -s $(which zsh)
 # Set Oh-my-zsh as default (instead of bash)
 # P.S. probably won't work so try https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell
 chsh -s $(which zsh)
