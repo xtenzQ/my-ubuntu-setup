@@ -1,4 +1,4 @@
-# My Ubuntu setup
+# My Ubuntu setup (Work in Progress)
 
 Table of contents:
 1. [Theme](#Theme)
@@ -35,6 +35,26 @@ Table of contents:
         * hinting: slight
         * antialiasing: subpixel
         * scaling factor: 1.00
+* [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
+   * [p10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+
+### Pre-installation
+
+```Bash
+# Install Gnome Tweaks
+sudo apt install gnome-tweaks
+
+# Install Papirus Dark Icons
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt-get update
+sudo apt-get install papirus-icon-theme
+
+# Install Oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Install p10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
 
 ### Dock conf
 In the file.
