@@ -32,7 +32,7 @@ Table of contents:
         * document text: Sans Regular 11
         * monospace text: Ubuntu Mono Regular 13
         * legacy window titles: Ubuntu Regular 11
-        * hinting: slight
+        * hinting: full (you can also try slight)
         * antialiasing: subpixel
         * scaling factor: 1.00
 * [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
