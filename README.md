@@ -59,6 +59,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Install p10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 # Install fonts Meslo NGL from https://github.com/romkatv/powerlevel10k#fonts
+
+# Install Emote
+sudo snap install emote
 ```
 
 ### Dock conf
@@ -110,3 +113,4 @@ https://unix.stackexchange.com/questions/255509/bluetooth-pairing-on-dual-boot-o
 - Copy a screenshort of an area to clipboard: `Shift` + `Super` +`S`
 - Home folder: `Super` + `E`
 - Launch terminal: `Super` + `T`
+- Emote picker: `Super` + `;` (follow this [guide](https://github.com/tom-james-watson/Emote/wiki/Hotkey-In-Wayland))
