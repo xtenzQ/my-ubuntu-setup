@@ -5,6 +5,7 @@ Table of contents:
 2. [Audio device setup](#Audio-device-setup)
 3. [Dual Boot Time Sync](#Dual-Boot-Time-Sync)
 4. [Bluetooth Dual Boot Pairing](#Bluetooth-Dual-Boot-Pairing)
+5. [Keyboard Shortcuts](#Keyboard-Shortcuts)
 
 ## Theme
 
@@ -104,3 +105,8 @@ timedatectl set-local-rtc 1
 
 Link:
 https://unix.stackexchange.com/questions/255509/bluetooth-pairing-on-dual-boot-of-windows-linux-mint-ubuntu-stop-having-to-p
+
+## Keyboard Shortcuts
+- Copy a screenshort of an area to clipboard: `Shift` + `Super` +`S`
+- Home folder: `Super` + `E`
+- Launch terminal: `Super` + `T`
