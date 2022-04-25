@@ -1,4 +1,4 @@
-# My Ubuntu setup (Work in Progress)
+# My Ubuntu setup
 
 Table of contents:
 1. [Theme](#theme)
