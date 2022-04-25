@@ -1,11 +1,12 @@
 # My Ubuntu setup (Work in Progress)
 
 Table of contents:
-1. [Theme](#Theme)
-2. [Audio device setup](#Audio-device-setup)
-3. [Dual Boot Time Sync](#Dual-Boot-Time-Sync)
-4. [Bluetooth Dual Boot Pairing](#Bluetooth-Dual-Boot-Pairing)
-5. [Keyboard Shortcuts](#Keyboard-Shortcuts)
+1. [Theme](#theme)
+2. [Audio device setup](#audio-device-setup)
+3. [Dual Boot Time Sync](#dual-boot-time-sync)
+4. [Bluetooth Dual Boot Pairing](#bluetooth-dual-boot-pairing)
+5. [Keyboard Shortcuts](#keyboard-shortcuts)
+6. [Software](#software)
 
 ## Theme
 
@@ -114,3 +115,7 @@ https://unix.stackexchange.com/questions/255509/bluetooth-pairing-on-dual-boot-o
 - Home folder: `Super` + `E`
 - Launch terminal: `Super` + `T`
 - Emote picker: `Super` + `;` (follow this [guide](https://github.com/tom-james-watson/Emote/wiki/Hotkey-In-Wayland))
+
+## Software
+### [Virtual Webcam Background](https://github.com/fangfufu/Linux-Fake-Background-Webcam)
+To use blur or any other webcam background at work.
