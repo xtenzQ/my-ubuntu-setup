@@ -27,6 +27,7 @@ Table of contents:
                 * unmaximized opacity: 49%
                 * hide corners
         * [simple monitor](https://extensions.gnome.org/extension/3891/simple-monitor/)
+        * [window is ready notification remover](https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/)
         * ubuntu dock
         * user themes
     * fonts
