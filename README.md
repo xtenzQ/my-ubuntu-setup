@@ -119,3 +119,10 @@ https://unix.stackexchange.com/questions/255509/bluetooth-pairing-on-dual-boot-o
 ## Software
 ### [Virtual Webcam Background](https://github.com/fangfufu/Linux-Fake-Background-Webcam)
 To use blur or any other webcam background at work.
+
+## Style other apps
+### Chrome
+Go to `Settings` -> `Apperance` -> `Theme` and set it to `GTK+`
+
+### Telegram
+Go to `Settings` -> `Advanced` -> `System integration` -> `Use system window frame`
