@@ -69,6 +69,8 @@ sudo apt install gnome-tweaks
 
 ### Appearance
 
+<img width="640px" src="img/appearance.png" />
+
 | Themes              | Value                                                                                   |
 | ------------------- | --------------------------------------------------------------------------------------- |
 | Cursor              | Yaru                                                                                    |
@@ -78,6 +80,8 @@ sudo apt install gnome-tweaks
 | Legacy Applications | [Colloid-dark-nord](https://github.com/vinceliuice/Colloid-gtk-theme) (`--tweaks nord`) |
 
 ### Fonts
+
+<img width="640px" src="img/fonts.png" />
 
 | Type                 | Font                | Size |
 | -------------------- | ------------------- | ---- |
