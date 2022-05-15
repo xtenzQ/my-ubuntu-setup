@@ -18,9 +18,10 @@ P.S. I'm still working on this and I haven't added everything that I want atm. T
 - [🛠️ My Ubuntu setup for development](#️-my-ubuntu-setup-for-development)
     - [Hello everyone! 👋](#hello-everyone-)
   - [Theme](#theme)
+    - [Shell](#shell)
     - [Make other apps look native](#make-other-apps-look-native)
       - [Chrome](#chrome)
-    - [Telegram](#telegram)
+      - [Telegram](#telegram)
   - [Tweaks and extensions](#tweaks-and-extensions)
     - [Appearance](#appearance)
     - [Fonts](#fonts)
@@ -44,6 +45,8 @@ P.S. I'm still working on this and I haven't added everything that I want atm. T
 
 ## Theme
 
+### Shell
+
 I copied almost everything from **[ArcTechnologies](https://www.youtube.com/channel/UCtKKEqJIPCT9E6WMas7lC5Q)** (YouTube). I recommend to check their channel and video of setting up a Nord theme for GNOME Desktop.
 
 <a href="https://www.youtube.com/watch?v=gx1hEQSOAyg"><img width="640px" src="https://i3.ytimg.com/vi/gx1hEQSOAyg/maxresdefault.jpg" /></a>
@@ -54,7 +57,7 @@ Wallpaper is taken from **[nordthemewallpapers.com](https://nordthemewallpapers.
 
 Install Colloid-dark-nord theme:
 ```bash
-curl -LJO https://github.com/vinceliuice/Colloid-gtk-theme/archive/refs/heads/main.zip && unzip 
+$ curl -LJO https://github.com/vinceliuice/Colloid-gtk-theme/archive/refs/heads/main.zip && unzip 
 Colloid-gtk-theme.zip && cd Colloid-gtk-theme && sh -c install.sh --tweaks nord
 ```
 
@@ -63,7 +66,7 @@ Colloid-gtk-theme.zip && cd Colloid-gtk-theme && sh -c install.sh --tweaks nord
 #### Chrome
 Go to `Settings` -> `Apperance` -> `Theme` and set it to `GTK+`
 
-### Telegram
+#### Telegram
 Go to `Settings` -> `Advanced` -> `System integration` -> `Use system window frame`
 
 ## Tweaks and extensions
@@ -71,7 +74,7 @@ Go to `Settings` -> `Advanced` -> `System integration` -> `Use system window fra
 Install GNOME Tweaks:
 
 ```bash
-sudo apt install gnome-tweaks
+$ sudo apt install gnome-tweaks
 ```
 
 ### Appearance
@@ -119,7 +122,7 @@ In the file.
 
 To copy settings into your config use:
 ```Bash
-dconf load /org/gnome/shell/extensions/dash-to-dock/ < dash-to-dock.conf
+$ dconf load /org/gnome/shell/extensions/dash-to-dock/ < dash-to-dock.conf
 ```
 
 ## Audio device setup
@@ -130,7 +133,7 @@ dconf load /org/gnome/shell/extensions/dash-to-dock/ < dash-to-dock.conf
 I spent lots of time setting up my audio environment on Ubuntu and it's a pure hell for a person who's not familiar with Linux.
 1. Download `pavucontrol`:
 ```
-sudo apt update && sudo apt install pavucontrol
+$ sudo apt update && sudo apt install pavucontrol
 ```
 2. Go to `Configuration` tab and disable all unused micro by clicking `Off` in dropdown menu.
 3. Switch all your discrete microphones profiles from `Duplex` into `Input` (microphone is not an output device).
@@ -143,7 +146,7 @@ sudo apt update && sudo apt install pavucontrol
 I use AKG Lyra & default stereo headphones preset (the command below is added into `Startup Applications`):
 
 ```
-pactl set-default-sink alsa_output.pci-0000_00_1b.0.analog-stereo &&  pactl set-default-source alsa_input.usb-AKG_C44-USB_Microphone_AKG_C44-USB_Microphone-00.analog-stereo
+$ pactl set-default-sink alsa_output.pci-0000_00_1b.0.analog-stereo &&  pactl set-default-source alsa_input.usb-AKG_C44-USB_Microphone_AKG_C44-USB_Microphone-00.analog-stereo
 ```
 
 To list your input and output devices use `pactl list short sinks` and `pactl list short sources`
@@ -152,7 +155,7 @@ To list your input and output devices use `pactl list short sinks` and `pactl li
 
 In Linux, use:
 ```
-timedatectl set-local-rtc 1
+$ timedatectl set-local-rtc 1
 ```
 
 ## Bluetooth Dual Boot Pairing
@@ -177,16 +180,16 @@ Amazing terminal!
 1. Download latest release **[here](https://github.com/Eugeny/tabby/releases)**.
 2. Install `.deb` file.
 ```bash
-sudo dpkg -i tabby-1.0.177-linux-x64.deb
+$ sudo dpkg -i tabby-1.0.177-linux-x64.deb
 ```
 3. Make Tabby a default terminal.
 Add Tabby to terminals list.
 ```bash
-sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/tabby 1
+$ sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/tabby 1
 ```
 Change default terminal by choosing Tabby in the list by running this command:
 ```bash
-sudo update-alternatives --config x-terminal-emulator
+$ sudo update-alternatives --config x-terminal-emulator
 ```
 
 #### Install `oh-my-zsh` and `p10k`
@@ -194,17 +197,22 @@ sudo update-alternatives --config x-terminal-emulator
 Install `oh-my-zsh`:
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && chsh -s $(which zsh)
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && chsh -s $(which zsh)
 ```
 
 Install `p10k`:
 ```bash
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+$ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
 Set `zsh` as default shell:
 ```
-chsh -s $(which zsh)
+$ chsh -s $(which zsh)
+```
+
+Configure `p10k`:
+```
+$ p10k configure
 ```
 
 ## Development setup
@@ -212,14 +220,14 @@ chsh -s $(which zsh)
 Let's start with basic tools like `build-essential`:
 
 ```bash
-sudo apt install build-essential 
+$ sudo apt install build-essential 
 ```
 
 ### Spacevim
 
 Install SpaceVim:
 ```bash
-curl -sLf https://spacevim.org/install.sh | bash
+$ curl -sLf https://spacevim.org/install.sh | bash
 ```
 
 ## Other tools
@@ -229,7 +237,7 @@ curl -sLf https://spacevim.org/install.sh | bash
 I miss `Ctrl` + `;` emote picker from Windows a lot so I decided to search for an Ubuntu analog and found `emote`! It's great! Let's install it using snap!
 
 ```bash
-sudo snap install emote
+$ sudo snap install emote
 ```
 
 It looks like this:
