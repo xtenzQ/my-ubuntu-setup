@@ -1,6 +1,16 @@
-# My Ubuntu setup
+# 🛠️ My Ubuntu setup for development
 
-Table of contents:
+![](https://img.shields.io/badge/Ubuntu-22.04-orange?style=flat-style&logo=ubuntu&logoColor=white) ![](https://img.shields.io/badge/Ubuntu-20.04-green?style=flat-style&logo=ubuntu&logoColor=white)
+
+Hello everyone! I want to share with you an Ubuntu setup which I carefully built for myself. As a developer, I want my system not only to has all neccessary tools but to look nice. I hope you to enjoy my build!
+
+Feel free to ask me using **[email](mailto:rusetscky@outlook.com)**.
+
+P.S. I'm still working on this and I haven't added everything that I want atm. Thank you for understanding 🙏
+
+___
+
+**Table of contents:**
 1. [Theme](#theme)
 2. [Audio device setup](#audio-device-setup)
 3. [Dual Boot Time Sync](#dual-boot-time-sync)
