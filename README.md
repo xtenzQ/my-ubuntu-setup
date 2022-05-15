@@ -18,11 +18,13 @@ P.S. I'm still working on this and I haven't added everything that I want atm. T
 - [🛠️ My Ubuntu setup for development](#️-my-ubuntu-setup-for-development)
     - [Hello everyone! 👋](#hello-everyone-)
   - [Theme](#theme)
+    - [Make other apps look native](#make-other-apps-look-native)
+      - [Chrome](#chrome)
+    - [Telegram](#telegram)
   - [Tweaks and extensions](#tweaks-and-extensions)
     - [Appearance](#appearance)
     - [Fonts](#fonts)
     - [Extensions](#extensions)
-    - [Pre-installation](#pre-installation)
     - [Dock conf](#dock-conf)
   - [Audio device setup](#audio-device-setup)
     - [Set default audio (optional)](#set-default-audio-optional)
@@ -33,9 +35,6 @@ P.S. I'm still working on this and I haven't added everything that I want atm. T
     - [Virtual Webcam Background](#virtual-webcam-background)
     - [Terminal Tabby](#terminal-tabby)
       - [Install `oh-my-zsh` and `p10k`](#install-oh-my-zsh-and-p10k)
-  - [Style other apps](#style-other-apps)
-    - [Chrome](#chrome)
-    - [Telegram](#telegram)
   - [Development setup](#development-setup)
     - [Spacevim](#spacevim)
   - [Other tools](#other-tools)
@@ -58,6 +57,14 @@ Install Colloid-dark-nord theme:
 curl -LJO https://github.com/vinceliuice/Colloid-gtk-theme/archive/refs/heads/main.zip && unzip 
 Colloid-gtk-theme.zip && cd Colloid-gtk-theme && sh -c install.sh --tweaks nord
 ```
+
+### Make other apps look native
+
+#### Chrome
+Go to `Settings` -> `Apperance` -> `Theme` and set it to `GTK+`
+
+### Telegram
+Go to `Settings` -> `Advanced` -> `System integration` -> `Use system window frame`
 
 ## Tweaks and extensions
 
@@ -106,9 +113,6 @@ sudo apt install gnome-tweaks
 - [window is ready notification remover](https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/)
 - ubuntu dock
 - user themes
-
-### Pre-installation
-
 
 ### Dock conf
 In the file.
@@ -203,13 +207,6 @@ Set `zsh` as default shell:
 chsh -s $(which zsh)
 ```
 
-## Style other apps
-### Chrome
-Go to `Settings` -> `Apperance` -> `Theme` and set it to `GTK+`
-
-### Telegram
-Go to `Settings` -> `Advanced` -> `System integration` -> `Use system window frame`
-
 ## Development setup
 
 Let's start with basic tools like `build-essential`:
@@ -241,4 +238,4 @@ It looks like this:
 
 Don't forget to bind it to `Ctrl` + `;` (`Settings` -> `Keyboard` -> `Keyboard Shortcuts` -> `View and Customize Shortcuts` -> `Custom Shortcuts` ->  Click `+` and add command `emote` to shortcut just like on screenshot below).
 
-<img width="360px" src="img/emote_shortcut.png" />    
+<img width="480px" src="img/emote_shortcut.png" />    
