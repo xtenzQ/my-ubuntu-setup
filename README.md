@@ -50,6 +50,12 @@ Wallpaper is taken from **[nordthemewallpapers.com](https://nordthemewallpapers.
 
 <a href="https://nordthemewallpapers.com/Backgrounds/16-9/All/img/3mcg97oyotu61.jpg"><img width="640px" src="https://nordthemewallpapers.com/Backgrounds/16-9/All/img/3mcg97oyotu61.jpg" /></a>
 
+Install Colloid-dark-nord theme:
+```bash
+curl -LJO https://github.com/vinceliuice/Colloid-gtk-theme/archive/refs/heads/main.zip && unzip 
+Colloid-gtk-theme.zip && cd Colloid-gtk-theme && sh -c install.sh --tweaks nord
+```
+
 ## Tweaks and extensions
 
 Install GNOME Tweaks:
@@ -58,37 +64,37 @@ Install GNOME Tweaks:
 sudo apt install gnome-tweaks
 ```
 
-Install Colloid-dark-nord theme:
-```bash
-curl -LJO https://github.com/vinceliuice/Colloid-gtk-theme/archive/refs/heads/main.zip && unzip 
-Colloid-gtk-theme.zip && cd Colloid-gtk-theme && sh -c install.sh --tweaks nord
-```
+| Themes              | Value                                                                                   |
+| ------------------- | --------------------------------------------------------------------------------------- |
+| Cursor              | Yaru                                                                                    |
+| Icons               | Mkos-Big-Sur                                                                            |
+| Shell               | [Colloid-dark-nord](https://github.com/vinceliuice/Colloid-gtk-theme) (`--tweaks nord`) |
+| Sound               | Yaru                                                                                    |
+| Legacy Applications | [Colloid-dark-nord](https://github.com/vinceliuice/Colloid-gtk-theme) (`--tweaks nord`) |
 
- * appearance
-     * legacy applications: [Colloid-dark-nord](https://github.com/vinceliuice/Colloid-gtk-theme) (`--tweaks nord`)
-     * cursor: Yaru
-     * icons: [Colloid-icon-theme](https://github.com/vinceliuice/Colloid-icon-theme)
-     * shell: [Colloid-dark-nord](https://github.com/vinceliuice/Colloid-gtk-theme) (`--tweaks nord`)
-     * sound: Yaru
+| Type                 | Font                | Size |
+| -------------------- | ------------------- | ---- |
+| Interface Text       | Ubuntu Regular      | 11   |
+| Document Text        | Sans Regular        | 11   |
+| Monospace            | Ubuntu Mono Regular | 13   |
+| Legacy Window Titles | Ubuntu Regular      | 11   |
+
+- hinting: full (you can also 
+- antialiasing: subpixel
+- scaling factor: 1.00
+
  * extensions
      * [dynamic panel transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
          * background
              * maximized opacity: 100%
-             * unmaximized opacity: 49%
+             * unmaximized opacity: А49%
              * hide corners
      * [simple monitor](https://extensions.gnome.org/extension/3891/simple-monitor/)
      * [Unite](https://extensions.gnome.org/extension/1287/unite/)
      * [window is ready notification remover](https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/)
      * ubuntu dock
      * user themes
- * fonts
-     * inteface text: Ubuntu Regular 11
-     * document text: Sans Regular 11
-     * monospace text: Ubuntu Mono Regular 13
-     * legacy window titles: Ubuntu Regular 11
-     * hinting: full (you can also try slight)
-     * antialiasing: subpixel
-     * scaling factor: 1.00
+     
 * [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
    * [p10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 
