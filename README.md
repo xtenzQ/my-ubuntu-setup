@@ -122,6 +122,23 @@ https://unix.stackexchange.com/questions/255509/bluetooth-pairing-on-dual-boot-o
 ### [Virtual Webcam Background](https://github.com/fangfufu/Linux-Fake-Background-Webcam)
 To use blur or any other webcam background at work.
 
+### [Tabby](https://github.com/Eugeny/tabby)
+Amazing terminal!
+1. Download latest release **[here](https://github.com/Eugeny/tabby/releases)**.
+2. Install `.deb` file.
+```bash
+sudo dpkg -i tabby-1.0.177-linux-x64.deb
+```
+3. Make Tabby a default terminal.
+Add Tabby to terminals list.
+```bash
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/tabby 1
+```
+Change default terminal by choosing Tabby in the list by running this command:
+```bash
+sudo update-alternatives --config x-terminal-emulator
+```
+
 ## Style other apps
 ### Chrome
 Go to `Settings` -> `Apperance` -> `Theme` and set it to `GTK+`
