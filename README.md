@@ -19,6 +19,9 @@ P.S. I'm still working on this and I haven't added everything that I want atm. T
     - [Hello everyone! 👋](#hello-everyone-)
   - [Theme](#theme)
   - [Tweaks and extensions](#tweaks-and-extensions)
+    - [Appearance](#appearance)
+    - [Fonts](#fonts)
+    - [Extensions](#extensions)
     - [Pre-installation](#pre-installation)
     - [Dock conf](#dock-conf)
   - [Audio device setup](#audio-device-setup)
@@ -64,6 +67,8 @@ Install GNOME Tweaks:
 sudo apt install gnome-tweaks
 ```
 
+### Appearance
+
 | Themes              | Value                                                                                   |
 | ------------------- | --------------------------------------------------------------------------------------- |
 | Cursor              | Yaru                                                                                    |
@@ -71,6 +76,8 @@ sudo apt install gnome-tweaks
 | Shell               | [Colloid-dark-nord](https://github.com/vinceliuice/Colloid-gtk-theme) (`--tweaks nord`) |
 | Sound               | Yaru                                                                                    |
 | Legacy Applications | [Colloid-dark-nord](https://github.com/vinceliuice/Colloid-gtk-theme) (`--tweaks nord`) |
+
+### Fonts
 
 | Type                 | Font                | Size |
 | -------------------- | ------------------- | ---- |
@@ -83,20 +90,18 @@ sudo apt install gnome-tweaks
 - antialiasing: subpixel
 - scaling factor: 1.00
 
- * extensions
-     * [dynamic panel transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
-         * background
-             * maximized opacity: 100%
-             * unmaximized opacity: А49%
-             * hide corners
-     * [simple monitor](https://extensions.gnome.org/extension/3891/simple-monitor/)
-     * [Unite](https://extensions.gnome.org/extension/1287/unite/)
-     * [window is ready notification remover](https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/)
-     * ubuntu dock
-     * user themes
-     
-* [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
-   * [p10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+### Extensions
+
+- [dynamic panel transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
+   - background
+       - maximized opacity: 100%
+       - unmaximized opacity: А49%
+       - hide corners
+- [simple monitor](https://extensions.gnome.org/extension/3891/simple-monitor/)
+- [Unite](https://extensions.gnome.org/extension/1287/unite/)
+- [window is ready notification remover](https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/)
+- ubuntu dock
+- user themes
 
 ### Pre-installation
 
