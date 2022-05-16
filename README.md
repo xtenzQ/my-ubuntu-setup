@@ -245,7 +245,35 @@ Install:
 ```bash
 $ sudo snap install --classic code
 ```
- 
+I use these extensions: 
+- Java/Kotlin dev:
+  - [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug) `ext install vscjava.vscode-java-debug`
+  - [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) `ext install vscjava.vscode-java-pack`
+  - [Kotlin](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin) `ext install fwcd.kotlin`
+  - [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin) `ext install mathiasfrohlich.Kotlin`
+  - [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven) `ext install vscjava.vscode-maven`
+  - [Project Manager for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency) `ext install vscjava.vscode-java-dependency`
+  - [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java) `ext install redhat.java`
+  - [Test Runner for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test) `ext install vscjava.vscode-java-test`
+- Frontend:
+  - [Bootstrap 5 & Font Awesome Snippets](https://marketplace.visualstudio.com/items?itemName=HansUXdev.bootstrap5-snippets) `ext install HansUXdev.bootstrap5-snippets`
+  - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) `ext install bradlc.vscode-tailwindcss`
+- Markdown
+  - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) `ext install yzhang.markdown-all-in-one`
+  - [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) `ext install yzane.markdown-pdf`
+  - [Markdown Table](https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable) `ext install TakumiI.markdowntable`
+  - [LaTeX](https://marketplace.visualstudio.com/items?itemName=mathematic.vscode-latex) `ext install mathematic.vscode-latex`
+- general dev:
+  - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) `ext install ms-azuretools.vscode-docker`
+  - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) `ext install GitHub.copilot`
+  - [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) `ext install VisualStudioExptTeam.vscodeintellicode`
+  - [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) `ext install ms-vscode.live-server`
+
+And themes:
+- [Copilot Theme](https://marketplace.visualstudio.com/items?itemName=BenjaminBenais.copilot-theme) `ext install BenjaminBenais.copilot-theme`
+- [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) `ext install GitHub.github-vscode-theme`
+- [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) `ext install azemoh.one-monokai`
+
 To install extensions that I use type:
 ```bash
 $ ./vscode-install-ext.sh
