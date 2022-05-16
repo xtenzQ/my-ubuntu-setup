@@ -38,6 +38,7 @@ P.S. I'm still working on this and I haven't added everything that I want atm. T
       - [Install `oh-my-zsh` and `p10k`](#install-oh-my-zsh-and-p10k)
   - [Development setup](#development-setup)
     - [Spacevim](#spacevim)
+    - [VS Code](#vs-code)
   - [Other tools](#other-tools)
     - [Emotes](#emotes)
 
@@ -66,8 +67,12 @@ Colloid-gtk-theme.zip && cd Colloid-gtk-theme && sh -c install.sh --tweaks nord
 #### Chrome
 Go to `Settings` -> `Apperance` -> `Theme` and set it to `GTK+`
 
+![](img/chrome.png)
+
 #### Telegram
 Go to `Settings` -> `Advanced` -> `System integration` -> `Use system window frame`
+
+![](img/tel.png)
 
 ## Tweaks and extensions
 
@@ -228,6 +233,22 @@ $ sudo apt install build-essential
 Install SpaceVim:
 ```bash
 $ curl -sLf https://spacevim.org/install.sh | bash
+```
+
+### VS Code
+
+**Theme:** Copilot Theme
+
+<img width="480px" src="img/vscode.png" />
+
+Install:
+```bash
+$ sudo snap install --classic code
+```
+ 
+To install extensions that I use type:
+```bash
+$ ./vscode-install-ext.sh
 ```
 
 ## Other tools
